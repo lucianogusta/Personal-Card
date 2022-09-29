@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
+* {
+    margin: 0 ;
+    padding:0 ;
+    box-sizing: border-box ;
+}
+
+body{
+    display: flex;
+    background-color: #efefed;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 580px;
+    background-color: #2d364c;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+}
+.top-bar{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.right-bar{
+    display: flex;
+    justify-content: space-between; 
+    width: 30px;
+}
+.left-bar{
+    width: 80px;
+}
+
+.fa{
+    color: #fff;
+}
+
+.top-bar .fa{
+    font-size: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h2 {
+    margin-top: 10px;
+    color: white;
+}
+
+h3 {
+    color: #444b61;
+
+}
+
+p {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.button-hireme {
+    margin: 20px 0;
+    width: 150px;
+    height: 44px;
+    border-radius: 30px;
+    border: none;
+    background:linear-gradient(150deg, #cf0672, #f75c99);
+    color: #444b61;
+    cursor:pointer;
+}
+
+.button-hireme:hover{
+    background:linear-gradient(150deg,#f75c99,#cf0672);
+}
+
+hr{
+    border: solid 1px white;
+    width: 90%;
+}
+
+.buttons-social{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+
+.button-insta{
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    cursor: pointer;
+}
+
+
+.button-insta:hover{
+    background:linear-gradient(45deg,#fd1d1d, #e1306c, #c13584, #833ab4, #5851db, #405de6) ;
+}
+
+.button-git{
+    background:linear-gradient(45deg, #000, #444);
+    cursor: pointer;
+}
+
+
+.button-git:hover{
+    background:linear-gradient(45deg,#444, #000);
+}
+
+.button-face{
+    background:linear-gradient(45deg, #3b5998, #FFFFFF );
+    cursor: pointer;
+}
+
+.button-face:hover{
+    background:linear-gradient(45deg,#FFFFFF, #3b5998 );
+}
+
+.buttons-social .fa{
+    font-size: 25px;
+}
+
+.seguidores{
+    color:white;
+}
+
